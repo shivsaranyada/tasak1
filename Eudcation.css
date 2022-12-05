@@ -1,0 +1,210 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('back.jpg');
+}
+.nav{
+    background-color: #F39058;
+    z-index:9;
+    padding: 10PX;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+}
+.nav:hover{
+    background-color:lightblue;
+    box-shadow: 2 2 2 black;
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    padding: 0p  
+}
+.logo img{
+    padding:0px;
+    width: 100px;
+    height: 100px;
+}
+.nav_side{
+    float: right;
+    width: 45%;
+    margin: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.nav_side a{
+     text-decoration: none;
+     margin-right: 20px;
+     color: black;
+     font-weight: bold;
+     font-family: cosmic, sans-serif;
+     font-size: 20px;
+     background: #ffd030;
+     border-radius: 0 135px;
+     width: 40px;
+     text-transform: capitalize;
+     font-size: 16px;
+     padding: 5px 25px;
+     position: relative;
+     font-weight: 600;
+     overflow: hidden;
+     color: #521407;
+     font-family: raleway;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .nav_side a:hover{
+    color: red;
+ }
+ .main{
+    background-image: url("back1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+ }
+ .main .main_content{
+    padding-top:13%;
+    margin-left:30%;
+    margine:10%;
+
+ }
+ .main .main_content h2{
+    color:#FF5722;
+    font-size:40px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:cosmic,sans-serif;
+    margin-left: 50px;
+    line-height: 50px;
+    font-style: oblique;
+ }
+ .main .main_content h2 span{
+    color: black;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 20px ;
+ }
+ .main .main_content .btn{
+    margin-top: 50px;
+    margin-left: 450px;
+ }
+ .main .main_content .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic,sans-serif;
+    text-align: center;
+    border:2px solid white;
+    border-radius: 10px;
+    border-right: 4px solid white;
+ }
+ .main .main_content .btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+ }
+ .contant{
+    background-color: #D68910;
+    height:60vh;
+    width:20cm;
+    float: right;
+    border-radius: 0px 100px;
+ }
+.contant .sub_contant{
+    margin-left: 90px;
+    margin-top: 35px;
+    width: 15cm;
+    height: 50vh;
+    background-color:whitesmoke ;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+}
+.contant .sub_contant h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #34495E;
+}
+.contant .card-text{
+    background:linear-gradient(120deg,#05073a,#dc0606ca) ;
+    position:relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+ .contant .card-text input{
+    width: 259px;
+    padding: 0 5px;
+    height:40px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius:80px;
+    background: none;
+    outline: none;
+    background-color: white;
+ }
+ .contant .card-text label{
+    position: absolute;
+    top: 50%;
+    left:5px;
+    color: #adadad;
+    transform: translateY(-50px);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+ }
+ .contant .btn{
+    margin-top: 30px;
+    margin-left: 190px;
+ }
+ .contant .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic,sans-serif;
+    text-align: center;
+    border:2px solid white;
+    border-radius: 10px;
+    border-right: 4px solid white;
+ }
+ .contant .btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+}
+ .contant .card-pass{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:10px;
+}
+.contant .card-signup-link{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:10px;
+}
+img{
+    height: 11cm;
+    width: 20cm;
+}
